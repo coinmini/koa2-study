@@ -16,6 +16,7 @@ app.use(cors());
 //logger
 app.use(logger())
 
+//__dirname 是指/root/koa2-study/   这个目录
 app.use(serve(path.join(__dirname, '/public')));
 
 
